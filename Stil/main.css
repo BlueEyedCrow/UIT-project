@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+}
+.img-container span {
+    color: #727171;
+}
+
+#img-eng {
+    display: block;
+    max-width: 66.6vw;
+}
+
+body {
+    background-color: rgb(35, 35, 35);
+    height: fit-content;
+    color: rgb(3, 172, 79);
+}
+
+main {
+    padding-left: 10px;
+}
+
+p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+.logo img,
+.logo {
+    display: block;
+    height: 100px;
+    width: 100px;
+}
+.logo img {
+    position: relative;
+}
+
+.active {
+    background-color: #000000;
+    background-blend-mode: color;
+    color: white;
+}
+
+.navigation {
+    position: fixed;
+    background-color: #444444;
+    transition: width 0.6s;
+    overflow: hidden;
+}
+
+.navigation-nav {
+    display: flex;
+    height: 100%;
+    list-style: none;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-item a:visited {
+    text-decoration: none;
+    color: #05c57f;
+}
+
+.nav-item span {
+    display: none;
+    white-space: nowrap;
+}
+
+.nav-header {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.nav-item:hover {
+    background-color: #727171;
+}
+
+.navigation:hover .nav-logo i {
+    transform: rotate(-180deg);
+    transition-duration: 0.6s;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    main,
+    .logo {
+        margin-left: 3rem;
+    }
+
+    .navigation {
+        top: 0;
+        width: 3rem;
+        height: 100vh;
+    }
+
+    .navigation-nav {
+        flex-direction: column;
+    }
+
+    .navigation:hover {
+        width: 10rem;
+    }
+
+    .navigation:hover .nav-item span {
+        display: block;
+        padding-left: 7px;
+        width: 100%;
+    }
+
+    .nav-item {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+
+    .nav-item a {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 3rem;
+        width: 100%;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin-bottom: 3rem;
+    }
+
+    .navigation {
+        bottom: 0;
+        width: 100vw;
+        height: 3rem;
+    }
+
+    .nav-logo {
+        display: none;
+    }
+
+    .navigation-nav {
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-evenly;
+        justify-items: center;
+    }
+
+    .nav-item {
+        align-content: center;
+        height: 100%;
+    }
+}

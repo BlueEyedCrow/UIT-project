@@ -1,117 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Home Page</title>
     <link rel="icon" href="Slike/tinywow_change_bg_photo_53091106.png">
+    <link rel="stylesheet" href="Stil/main.css">
+    <link rel="stylesheet" href="Stil/index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <a href="index.html">
-            <img src="Slike/tinywow_change_bg_photo_53091106.png" alt="blue-eyed-crow-logo" width="200" height="200">
+        <a class="logo" href="index.html">
+            <img src="Slike/tinywow_change_bg_photo_53091106.png" alt="blue-eyed-crow-logo">
         </a>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Stranice/team.html">Meet the Team</a></li>
-                <li><a href="Stranice/game-list.html">List of Games</a></li>
-                <li><a href="Stranice/contact.html">Contact Us</a></li>
-                <li><a href="Stranice/careers.html">Carrers</a></li>
-                <li><a href="Stranice/about.html">About Us</a></li>
+        <nav class="navigation">
+            <div class="nav-logo">
+                <i class="material-icons">memory</i>
+            </div>
+            <ul class="navigation-nav">
+                <li class="nav-item active">
+                    <a href="index.html">
+                        <i class="material-icons">home</i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="Stranice/team.html">
+                        <i class="material-icons">people</i>
+                        <span>Meet the Team</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="Stranice/game-list.html">
+                        <i class="material-icons">games</i>
+                        <span>List of Games</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="Stranice/contact.html">
+                        <i class="material-icons">local_post_office</i>
+                        <span>Contact Us</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="Stranice/careers.html">
+                        <i class="material-icons">insert_drive_file</i>
+                        <span>Carrers</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="Stranice/about.html">
+                        <i class="material-icons">history</i>
+                        <span>About Us</span>
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
     <main>
         <h1>Welcome to BEC-Hosting</h1>
         <p>
-            At BEC-Hosting, we're passionate about gaming and dedicated to providing the best hosting solutions for gamers around the world. <br>
-            Whether you're a casual player, a professional esports team, or an indie game developer, we've got you covered.
+            At BEC-Hosting, we're passionate about gaming and dedicated to providing the best hosting solutions for
+            gamers around the world.
+            Whether you're a casual player, a professional esports team, or an indie game developer, we've got you
+            covered.
         </p>
-        <h2>Our Servers</h2>
+        <h2>Our Servers:</h2>
         <p>
-            Choose from our range of servers tailored to meet your gaming needs. <br>
-            Whether you're looking for a powerful large server to host a massive multiplayer online game,<br> 
-            a medium server for your growing community, or a small server for intimate gaming sessions with friends,<br>
-            we have the perfect solution for you.<br>
-            Our Solutions:
+            Choose from our range of servers tailored to meet your gaming needs.
+            Whether you're looking for a powerful large server to host a massive multiplayer online game,
+            a medium server for your growing community, or a small server for intimate gaming sessions with friends,
+            we have the perfect solution for you.
         </p>
-        <img src="Slike/_a99dfd78-049e-4e20-9161-9928e6080818.jpg" alt="large-server-icon" width="100" height="100">
-        <table name="ServerLarge" border="2">
-            <caption>Large Server</caption>
-            <thead>
-                <tr>
-                    <td>Component</td>
-                    <td>Name</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>CPU</td>
-                    <td>8x vCPU Intel Xeon E3</td>
-                </tr>
-                <tr>
-                    <td>RAM</td>
-                    <td>64GB</td>
-                </tr>
-                <tr>
-                    <td>Storage</td>
-                    <td>NVME SSD 500GB</td>
-                </tr>
-            </tbody>
-        </table>
-        <img src="Slike/_7f27a5ea-2348-4358-8051-045769762829.jpg" alt="medium-server-icon" width="100" height="100">
-        <table name="ServerMedium" border="2">
-            <caption>Medium Server</caption>
-            <thead>
-                <tr>
-                    <td>Component</td>
-                    <td>Name</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>CPU</td>
-                    <td>4x vCPU Intel Xeon E3</td>
-                </tr>
-                <tr>
-                    <td>RAM</td>
-                    <td>32GB</td>
-                </tr>
-                <tr>
-                    <td>Storage</td>
-                    <td>NVME SSD 200GB</td>
-                </tr>
-            </tbody>
-        </table>
-        <img src="Slike/_1a6cfe9f-f3ff-44e1-ad42-afea172374b5.jpg" alt="small-server-icon" width="100" height="100">
-        <table name="ServerSmall" border="2">
-            <caption>Small Server</caption>
-            <thead>
-                <tr>
-                    <td>Component</td>
-                    <td>Name</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>CPU</td>
-                    <td>2x vCPU Intel Xeon E3</td>
-                </tr>
-                <tr>
-                    <td>RAM</td>
-                    <td>8GB</td>
-                </tr>
-                <tr>
-                    <td>Storage</td>
-                    <td>NVME SSD 80GB</td>
-                </tr>
-            </tbody>
-        </table>
+        <h2>Our Solutions:</h2>
+        <div class="products-container">
+            <div class="product">
+                <img src="Slike/_a99dfd78-049e-4e20-9161-9928e6080818.jpg" alt="large-server-icon" width="100"
+                    height="100">
+                <table name="ServerLarge" border="2">
+                    <caption>Large Server</caption>
+                    <thead>
+                        <tr>
+                            <td>Component</td>
+                            <td>Name</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>CPU</td>
+                            <td>8x vCPU Intel Xeon E3</td>
+                        </tr>
+                        <tr>
+                            <td>RAM</td>
+                            <td>64GB</td>
+                        </tr>
+                        <tr>
+                            <td>Storage</td>
+                            <td>NVME SSD 500GB</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="product">
+                <img src="Slike/_7f27a5ea-2348-4358-8051-045769762829.jpg" alt="medium-server-icon" width="100"
+                    height="100">
+                <table name="ServerMedium" border="2">
+                    <caption>Medium Server</caption>
+                    <thead>
+                        <tr>
+                            <td>Component</td>
+                            <td>Name</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>CPU</td>
+                            <td>4x vCPU Intel Xeon E3</td>
+                        </tr>
+                        <tr>
+                            <td>RAM</td>
+                            <td>32GB</td>
+                        </tr>
+                        <tr>
+                            <td>Storage</td>
+                            <td>NVME SSD 200GB</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="product">
+                <img src="Slike/_1a6cfe9f-f3ff-44e1-ad42-afea172374b5.jpg" alt="small-server-icon" width="100"
+                    height="100">
+                <table name="ServerSmall" border="2">
+                    <caption>Small Server</caption>
+                    <thead>
+                        <tr>
+                            <td>Component</td>
+                            <td>Name</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>CPU</td>
+                            <td>2x vCPU Intel Xeon E3</td>
+                        </tr>
+                        <tr>
+                            <td>RAM</td>
+                            <td>8GB</td>
+                        </tr>
+                        <tr>
+                            <td>Storage</td>
+                            <td>NVME SSD 80GB</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
         <h2>Supported Games</h2>
         <p>
-            Wondering if your favorite game is supported? Check out our <a href="game-list.html">"List of Games"</a> page to see the full list of supported games.<br> 
-            From popular titles like Minecraft and Counter-Strike: Global Offensive to indie gems and niche favorites,<br>
+            Wondering if your favorite game is supported? Check out our <a href="game-list.html">"List of Games"</a>
+            page to see the full list of supported games.
+            From popular titles like Minecraft and Counter-Strike: Global Offensive to indie gems and niche
+            favorites,
             we support a wide range of games to ensure that you can play the games you love, hassle-free.
         </p>
     </main>
 </body>
-</html> 
+
+</html>
